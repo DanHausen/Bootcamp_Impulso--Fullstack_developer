@@ -6,8 +6,18 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-        <h1>
-            Oi
-        </h1>
+
+    <body onload="load()">
+        <button type="button" onclick="clicou()">Isso é um botão</button>
+        <h1 id="agradecimento" onclick="redirecionar()"></h1>
+        <h1 id="mousemove" onmouseover="trocar(this)" onmouseout="restore(this)">Passe o mouse aqui</h1>
+        <h1 id="mousemove2" onmouseover="trocar(this)" onmouseout="restore(this)">Passe o mouse aqui</h1>
+        <h1 id="mousemove3" onmouseover="trocar(this)" onmouseout="restore(this)">Passe o mouse aqui</h1>
+
+        <select onchange="funcaoChange(this)">
+            <option value="1">Opcao 1</option>
+            <option value="2">Opcao 2</option>
+            <option value="3">Opcao 3</option>
+        </select>
     </body>
 </html>

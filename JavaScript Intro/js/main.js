@@ -52,7 +52,41 @@
 //     return b;
 //   }
 
-var d = new Date();
-console.log(d);
-console.log(d.getMonth() + 1);
-console.log(d.getMinutes());
+// var d = new Date();
+// console.log(d);
+// console.log(d.getMonth() + 1);
+// console.log(d.getMinutes());
+
+// function setReplace(frase, nome, newNome){
+//     return frase.replace(nome, newNome);
+// }
+// alert(setReplace("Daniel é lindo", " é lindo", " é feio"));
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado</b>";
+    //alert("Clicou");
+}
+
+function redirecionar(){
+    //window.open("https://danhausen.com.br"); //abrir em nova janela
+    window.location.href = "https://danhausen.com.br"; //abrir na mesma janela
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado";
+    elemento.innerHTML = "Obrigado";
+    //alert("Passou o mouse");
+}
+
+function restore(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Pagina carregou");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
