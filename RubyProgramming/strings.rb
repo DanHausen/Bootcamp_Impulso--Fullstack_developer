@@ -1,3 +1,4 @@
+#Everytime we use the String, Ruby will set it to a diferent object_id on memory
 name = 'Daniel'
 message = %Q(Eu sou #{name})
 puts message #puts serve para exibir a mensagem no console
