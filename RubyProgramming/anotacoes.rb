@@ -6,6 +6,8 @@ Ruby:
 - Tipagem dinamica, não requer definicao do tipo de variavel, assim como JavaScript.
 - Tipagem forte, que não realiza conversão automatica entre os tipos de dados, tipo converter um texto em um inteiro, de forma automatica. Diferente do JavaScript que possui tipagem fraca.
 - Roda em qualquer sistema operacional baseado em unix e no windows
+- O shell do ruby é chamado de IRB (Interactive Ruby), que vem instalado junto com o Ruby que é o interpretador e o IRB é o shell para rodar os códigos.
+- 
 
 Rails:
 - Rails é um Framework Web escrito em Ruby, criado em 2004 por David Heinemeier Hansson (DHH).
