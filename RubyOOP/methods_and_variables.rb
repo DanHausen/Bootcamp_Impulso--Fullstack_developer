@@ -1,5 +1,3 @@
-#
-
 class ClassName
     def printHello(name)
         @name = name #For security
