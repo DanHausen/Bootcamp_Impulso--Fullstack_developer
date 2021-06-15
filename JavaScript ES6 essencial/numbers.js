@@ -1,7 +1,7 @@
 const myNum = 12.1995
 
 const numberAsString = myNum.toString();
-console.log('Número transformado em String: ', numberAsString);
+console.log('Número transformado em String: ', typeof numberAsString); // 'TypeOf' is used to return the type of the variable
 
 const fixedTwoDecimals = myNum.toFixed(2);
 console.log('\nNúmero com duas casas decimais: ', fixedTwoDecimals);
