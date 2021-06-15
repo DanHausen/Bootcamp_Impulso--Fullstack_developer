@@ -10,4 +10,16 @@ x++
 --x
 x--
 
-//Negação 
+//Negação (-) e Adição (+)
+-3
++"3"    //Retorna 3
++true   //Retorna 1
++false  //Retorna 0
+-true   //Retorna -1
+
+//Operador de exponenciação (**)
+2**3    //retorna 8
+10**-1  //retorna 0.1
+
+//Operador de agrupamento ()
+2*(3+2)
