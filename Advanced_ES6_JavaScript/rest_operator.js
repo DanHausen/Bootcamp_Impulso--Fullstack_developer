@@ -1,17 +1,16 @@
-// function sum(a,b){
-//     console.log(arguments);
-//     var value = 0;
-//     for (var i = 0; i < arguments.length; i++){
-//         value += arguments[i];
-//     }
-//     return value;
-// }
-// console.log(sum(7,5,5,9,6,2)); 
+// Rest Operator e Spread operator
+// Funciona em Strings, Arrays, Objetos e Objetos Iteraveis
 
-// Rest Operator ...
+const multiply = (...args) => {
+    args.reduce((acc, value) => acc * value, 1);
+}
 
-function sum(...args){
-    return args.reduce((acc, value) => acc + value, 0);
+const sum = (...rest) => {
+    return multiply(...rest);
 }
 
 console.log(sum(7,5,5,9,6,2)); 
+
+
+const array = [1,2,3,4,5];
+const arrayClone = [...array];
